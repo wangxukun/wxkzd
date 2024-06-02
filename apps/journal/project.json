@@ -5,5 +5,9 @@
   "projectType": "application",
   "tags": [],
   "// targets": "to see all targets run: nx show project journal --web",
-  "targets": {}
+  "targets": {
+    "seed": {
+      "command": "node -r dotenv/config ./apps/journal/scripts/seed.js"
+    }
+  }
 }
